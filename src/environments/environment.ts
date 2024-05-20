@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
- firebaseConfig : {
+  firebaseConfig : {
     apiKey: "AIzaSyCjPBFZTSZNaBqFD1DzrsYPKRoyJbyAYto",
     authDomain: "logeo-39d86.firebaseapp.com",
     projectId: "logeo-39d86",

@@ -2,6 +2,10 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    //linas para prevenir errores
+    "strictPropertyInitialization":false,
+    "skipLibCheck": true,
+    //ya viene por defecto
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -28,6 +32,7 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
+    //esta se cambop a false
     "strictTemplates": true
   }
 }
